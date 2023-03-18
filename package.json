@@ -1,0 +1,27 @@
+{
+  "name": "my-chatbot_project",
+  "version": "1.0.0",
+  "description": "Here's is an African cuisine Chabot API, that enables its users to interact/place an order directly to the restaurant. Have fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omience/My-ChatBot_project.git"
+  },
+  "author": "Omience",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omience/My-ChatBot_project/issues"
+  },
+  "homepage": "https://github.com/Omience/My-ChatBot_project#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  }
+}
